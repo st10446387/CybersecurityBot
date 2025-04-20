@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 
 namespace CybersecurityBot
@@ -67,15 +67,15 @@ namespace CybersecurityBot
             TypeWrite("I'm your Cybersecurity Awareness Assistant.\n");
 
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\n╔════════════════════════════════════╗");
-            Console.WriteLine(  "║         Available Commands         ║");
-            Console.WriteLine(  "╠════════════════════════════════════╣");
-            Console.WriteLine(  "║ 1. Password security               ║");
-            Console.WriteLine(  "║ 2. Phishing protection             ║");
-            Console.WriteLine(  "║ 3. Safe browsing                   ║");
-            Console.WriteLine(  "║ help - Show this menu              ║");
-            Console.WriteLine(  "║ exit - Close the application       ║");
-            Console.WriteLine(  "╚════════════════════════════════════╝\n");
+            Console.WriteLine("\n+------------------------------------+");
+            Console.WriteLine(  "�         Available Commands         �");
+            Console.WriteLine(  "�------------------------------------�");
+            Console.WriteLine(  "� 1. Password security               �");
+            Console.WriteLine(  "� 2. Phishing protection             �");
+            Console.WriteLine(  "� 3. Safe browsing                   �");
+            Console.WriteLine(  "� help - Show this menu              �");
+            Console.WriteLine(  "� exit - Close the application       �");
+            Console.WriteLine(  "+------------------------------------+\n");
             Console.ResetColor();
         }
 
@@ -87,24 +87,24 @@ namespace CybersecurityBot
             {
                 _ when input == "1" || input.Contains("pass") => FormatResponse(
                     "PASSWORD SECURITY GUIDELINES",
-                    "• Minimum 12 characters\n" +
-                    "• Combine uppercase, lowercase, numbers\n" +
-                    "• Use a password manager (e.g., Bitwarden)\n" +
-                    "• Enable two-factor authentication"),
+                    "� Minimum 12 characters\n" +
+                    "� Combine uppercase, lowercase, numbers\n" +
+                    "� Use a password manager (e.g., Bitwarden)\n" +
+                    "� Enable two-factor authentication"),
 
                 _ when input == "2" || input.Contains("phish") || input.Contains("scam") => FormatResponse(
                     "PHISHING PROTECTION TIPS",
-                    "• Verify sender email addresses\n" +
-                    "• Hover over links before clicking\n" +
-                    "• Watch for urgent/scare tactics\n" +
-                    "• Never share credentials via email"),
+                    "� Verify sender email addresses\n" +
+                    "� Hover over links before clicking\n" +
+                    "� Watch for urgent/scare tactics\n" +
+                    "� Never share credentials via email"),
 
                 _ when input == "3" || input.Contains("browse") || input.Contains("internet") => FormatResponse(
                     "SAFE BROWSING PRACTICES",
-                    "• Always check for HTTPS padlock\n" +
-                    "• Avoid sensitive tasks on public WiFi\n" +
-                    "• Keep browsers/plugins updated\n" +
-                    "• Use ad-blockers (uBlock Origin)"),
+                    "� Always check for HTTPS padlock\n" +
+                    "� Avoid sensitive tasks on public WiFi\n" +
+                    "� Keep browsers/plugins updated\n" +
+                    "� Use ad-blockers (uBlock Origin)"),
 
                 "help" => FormatResponse(
                     "COMMAND REFERENCE",
@@ -122,7 +122,7 @@ namespace CybersecurityBot
 
         private string FormatResponse(string title, string content)
         {
-            return $"{title}\n{new string('═', title.Length)}\n{content}";
+            return $"{title}\n{new string('-', title.Length)}\n{content}";
         }
 
         private void DisplayResponse(string response)
@@ -132,7 +132,7 @@ namespace CybersecurityBot
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             
-            Console.WriteLine("\n" + new string('─', consoleWidth));
+            Console.WriteLine("\n" + new string('-', consoleWidth));
 
            
             string[] parts = response.Split('\n');
@@ -141,14 +141,14 @@ namespace CybersecurityBot
 
        
             Console.WriteLine(title);
-            Console.WriteLine(new string('─', title.Length));
+            Console.WriteLine(new string('-', title.Length));
             Console.ResetColor();
 
             TypeWrite(content + "\n"); 
 
             
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine(new string('─', consoleWidth) + "\n");
+            Console.WriteLine(new string('-', consoleWidth) + "\n");
             Console.ResetColor();
         }
 
