@@ -1,0 +1,15 @@
+C:\Users\donav\source\repos\CybersecurityBot\bin\Debug\net8.0\CybersecurityBot.exe
+C:\Users\donav\source\repos\CybersecurityBot\bin\Debug\net8.0\welcome.wav
+C:\Users\donav\source\repos\CybersecurityBot\bin\Debug\net8.0\CybersecurityBot.deps.json
+C:\Users\donav\source\repos\CybersecurityBot\bin\Debug\net8.0\CybersecurityBot.runtimeconfig.json
+C:\Users\donav\source\repos\CybersecurityBot\bin\Debug\net8.0\CybersecurityBot.dll
+C:\Users\donav\source\repos\CybersecurityBot\bin\Debug\net8.0\CybersecurityBot.pdb
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\CybersecurityBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\CybersecurityBot.AssemblyInfoInputs.cache
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\CybersecurityBot.AssemblyInfo.cs
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\CybersecurityBot.csproj.CoreCompileInputs.cache
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\CybersecurityBot.dll
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\refint\CybersecurityBot.dll
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\CybersecurityBot.pdb
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\CybersecurityBot.genruntimeconfig.cache
+C:\Users\donav\source\repos\CybersecurityBot\obj\Debug\net8.0\ref\CybersecurityBot.dll
